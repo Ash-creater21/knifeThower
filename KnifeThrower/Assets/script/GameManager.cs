@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
     
     private void Update() 
     {
-        Debug.Log(score); 
         if(isDead==false)  
         {
             sc.SetScene("GameOver");
